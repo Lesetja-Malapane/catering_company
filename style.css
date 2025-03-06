@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parisienne&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+#catering_home_logo a {
+    color: rgb(226, 226, 226);
+    font-family: 'Dancing Script';
+    font-size: 40px;
+}
+
+ul, a {
+    color: rgb(211, 211, 211);
+    list-style-type: none;
+    font-family: 'Dancing Script';
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/catering.jpg);
+    height: 1080px;
+    background-size: cover;
+    background-position: center;
+}
